@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+p.p {
+    white-space: nowrap; 
+    width: auto; 
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align:center;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: grey;
+}
+
+/* mouse over link */
+a:hover {
+    color: blue;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+
+
+
+
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+    background-image: url("1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+
+.header h1 {
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 1px 1px aqua;
+}
+
+.header h2 {
+    font-size: 25px;
+    color: white;
+    text-shadow: 1px 1px 1px aqua;
+}
+
+.card h2 {
+    color: #f1f1f1;
+    text-shadow: 2px 2px 2px black, 2px 2px 3px aqua;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 1px solid #000000;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: right;
+    width: 400px;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.card2 {
+    background-color: white;
+    padding: 7px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+	position: sticky;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Jacob Ryan Cooke</h1>
+  <h2>Online Portfolio</h2>
+
+</div>
+
+<div class="topnav">
+  <a href="http://linkedin.jacobcooke.com" target="_blank">Jacob - Linked</a>
+  <a href="http://fb.jacobcooke.com" target="_blank">Jacob - Facebook</a>
+  <a href="http://twitter.jacobcooke.com" target="_blank">Jacob - Twitter</a>
+    
+</div>
+
+
+<div class="row">
+  <div class="leftcolumn">
+
+  <div class="card"><center>
+      <h2>Synergie-Cad UK (Ltd).</h2>
+      <h5>Current Employment, September 2016 - Present</h5>
+      <img src="scad.png" alt="meme" width="600">
+      
+      <p>
+	      Responsibilities and other duties
+      </p>
+	      
+      <p>
+1.	Rework designs to the satisfaction of the Customer, Design Manager and MRQ (Management representative for Quality).
+      </p>
+      <p>
+2.	Ensure that design projects have the correct component placement.
+      </p>
+      <p>
+3.	Ensure that schematics and net lists conform to client expectations.
+      </p>
+      <p>
+4.	Ensure that design tracing matches client accepted schematics and net lists.
+      </p>
+      <p>
+5.	Perform full design checks including DRC and MRC before manufacture begins.
+      </p>
+      <p>
+6.	Prepare bill of materials and assembly instructions for all designs.
+      </p>
+      <p>
+7.	Transmit design data to board manufacturing site.
+      </p>
+      <p>
+8.	Interface directly with clients on any design related dispute.
+      </p>
+      <p>
+9.	Comply with the requirements of the Synergie-Cad (UK) Ltd BS EN ISO 9001 Quality system.
+
+    </p>
+    <p>
+This is not necessarily an exhaustive list of all responsibilities, skills, duties, requirements, efforts, or working conditions associated with the position.  While this is intended to be an accurate reflection of the current position management reserves the right to revise the position or to require that other or different tasks be performed when circumstances change (e.g., emergencies, changes in personnel, workload, rush jobs, or technological developments.)
+    </p>
+	  
+    </center></div>
+  
+  
+    <div class="card"><center>
+      <h2>Linwave Technology</h2>   
+      <h5>Student Intern, Jul 01 - Jul, 2018</h5>
+      <img src="a.jpg" alt="meme" height="300">
+      <p>Please remember that Sumpter is fat and ugly.</p>
+      <p>-Phoenix (Damn Degenerates Troll)</p>
+    </center></div>
+
+	
+	<div class="card"><center>
+      <h2>Damn Degenerates is dying.</h2> 
+      <h5>Beautiful Image by Cookie, Jul 6, 2018</h5>
+      <img src="a.jpg" alt="meme" height="300">
+      <p>Please remember that Sumpter is fat and ugly.</p>
+      <p>-Phoenix (Damn Degenerates Troll)</p>
+    </center></div>
+	
+	
+  </div>
+  <div class="rightcolumn">
+  
+    <div class="card">
+      <h2><u><center>Degenerates Servers</center></u></h2>
+	  
+      <p><b>Teamspeak 3</p></b>
+	  <p class="p">degenerates.killervent.com</p>
+	  
+	  <p><b>Arma 3</p></b>
+	  <p class="p">CantRememberIllAdditLater.com</p>
+	  
+    </div>
+    
+    <div class="card">
+      <h2><center><u>Popular Links</u></center></h2>
+    </div>
+	
+    <div class="card2"><center>
+      <iframe width=auto height=auto src="https://www.youtube.com/embed/Hy4nxWzKyPE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <iframe width="0" height="0" src="https://www.youtube.com/embed/htgr3pvBr-I&autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <p><b><a href="https://www.youtube.com/watch?v=Hy4nxWzKyPE" target="_blank">Counter Strike Moments with idiots</a></b></p>
+    </center></div>  
+     
+    <div class="card2"><center>
+      <iframe width=auto height=auto src="https://www.youtube.com/embed/Ph0G1bRbxpM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>   
+      <p><b><a href="https://www.youtube.com/watch?v=Ph0G1bRbxpM" target="_blank">The Art of Trolling: Drill Sergeant</a></b></p>
+    </center></div>	
+	
+    <div class="card2"><center>
+      <iframe width=auto height=auto src="https://www.youtube.com/embed/YVQDO_03GWk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>   
+      <p><b><a href="https://www.youtube.com/watch?v=YVQDO_03GWk" target="_blank">Lonely Boy - The Black Keys (Cover)</a></b></p>
+    </center></div> 
+	
+    <div class="card2"><center>
+      <iframe width=auto height=auto src="https://www.youtube.com/embed/mshpeSV6-Cg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>   
+      <p><b><a href="https://www.youtube.com/watch?v=mshpeSV6-Cg" target="_blank">Olive Is Bad At... Faceit</a></b></p>
+    </center></div> 
+	
+	
+	
+	
+    <div class="card"><center>	    
+      <h2>Bonus Meme</h2>
+      <img src="5.png" alt="meme" height="350">
+      <p>Our DD Merch store will be online soon!</p>
+	  <p>Stay posted for updates!</p>
+    </center></div>
+	
+	
+  </div>
+</div>
+
+<div class="footer">
+  <h2>If you have any complaints, please direct them to Sumpter. Contact can be made on the TS3 server. Please do not bother the other Admins as they will be busy, Sumpter is the dedicated community interfacing admin.</h2>
+</div>
+
+</body>
+</html>
